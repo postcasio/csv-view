@@ -5,7 +5,7 @@ csv = require 'csv'
 
 class CsvView extends ScrollView
 	@content: ->
-		@div class: 'csv-view', =>
+		@div class: 'csv-view editor-colors', =>
 			@table outlet: 'table'
 
 	initialize: (@path) ->
