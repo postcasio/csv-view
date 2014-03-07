@@ -1,0 +1,21 @@
+{
+  "name": "csv-viewer",
+  "main": "./lib/csv-view",
+  "version": "0.0.0",
+  "description": "Open CSV files as a table.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/postcasio/csv-view"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/postcasio/csv-view/issues"
+  },
+  "homepage": "https://github.com/postcasio/csv-view",
+  "dependencies": {
+    "csv": "^0.3.7"
+  }
+}
